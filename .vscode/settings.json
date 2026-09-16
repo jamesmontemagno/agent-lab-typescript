@@ -1,0 +1,22 @@
+{
+  "chat.tools.terminal.enableAutoApprove": true,
+  "chat.tools.terminal.autoApproveWorkspaceNpmScripts": false,
+  "chat.tools.terminal.autoApprove": {
+    "/^npm run (dev|lint|build|test)$/": true,
+    "/^npm test$/": true
+  },
+  "github.copilot.chat.githubMcpServer.enabled": true,
+  "github.copilot.chat.githubMcpServer.toolsets": [
+    "default"
+  ],
+  "chat.editor.preferCopilotHarness": false,
+  "workbench.browser.enableChatTools": true,
+  "chat.agentHost.agentDebugLog.enabled": true,
+  "github.copilot.chat.agentDebugLog.enabled": true,
+  "github.copilot.chat.agentDebugLog.fileLogging.enabled": true,
+  "imageCarousel.explorerContextMenu.enabled": true,
+  "imageCarousel.chat.enabled": true,
+  "chat.customizationsMenu.enabled": true,
+  "chat.useCustomizationsInParentRepositories": true,
+  "chat.useCustomAgentHooks": true
+}
